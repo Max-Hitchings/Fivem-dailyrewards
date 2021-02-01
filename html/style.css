@@ -1,0 +1,140 @@
+.container {
+    position:fixed;
+    height: 60%;
+    width: 50%;
+    left: 25%;
+    top: 20%;
+    background-color: rgba(78, 78, 78, 0.781);
+    border-radius: 15px;
+}
+
+.closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.closebtn:hover {
+    color: #ccc;
+}
+
+.day1-3 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 68%;
+    height: 44%;
+}
+.day4-6 {
+    display: flex;
+    flex-direction: row;
+    width: 68%;
+    height: 44%;
+}
+
+.day-7 {
+    position: absolute;
+    left: 68%;
+    top: 67px;
+    width: 30%;
+    height: 84%;
+}
+
+.day1-3 > .reward {
+    flex: 1;
+}
+
+.day4-6 > .reward {
+    flex: 1;
+}
+
+.reward {
+    position: relative;
+    height: 84%;
+    width: 33%;
+    margin: 10px;
+    background-color: rgba(54, 54, 54, 0.726);
+    border-radius: 25px;
+}
+
+.day7_reward {
+    position: relative;
+    height: 96%;
+    margin: 10px;
+    background-color: rgba(54, 54, 54, 0.726);
+    border-radius: 25px;
+}
+
+.btn {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    border: 0;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 33%;
+    transition: 0.5s;
+    font-weight: bold;
+    font-size: 26px;
+    background-color: rgba(247, 247, 247, 0.774);
+}
+
+.btn:hover {
+    height: 100%;
+    border-radius: 25px;
+    background-color: rgba(8, 182, 8, 0.671);
+    font-weight: bolder;
+}
+
+.hedder {
+    line-height: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.img {
+    position: absolute;
+    height: 46%;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.locked {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 33%;
+    background-color: rgba(247, 247, 247, 0.774);
+    transition: 0.5s;
+}
+
+
+.lock {
+    position: absolute;
+    height: 90%;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%);
+    
+}
+
+
+
+#next-unlock {
+    position: absolute;
+    top: 4%;
+    left: 1%;
+    width: 15%;
+}
+
+.unlock {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
